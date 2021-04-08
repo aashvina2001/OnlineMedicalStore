@@ -1,0 +1,28 @@
+form {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+}
+.center {
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 500px;
+	background: white;
+	padding: 30px 56px;
+}
+#forgot {
+	float: right;
+	margin-top: 5px;
+}
+#aBtn1 {
+	color: #202020;
+}
+#aBtn2 {
+	color: #fff;
+}
+#aBtn2:hover {
+	color: #202020;
+}
+.form-control {
+	width: 350px;
+}

@@ -1,0 +1,27 @@
+body {
+	background: black;
+	height: 92vh;
+}
+#bg {
+	filter: opacity(50%);
+}
+h1 {
+	color: white;
+	font-family: carbon-14 stout;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+}
+p {
+	padding: 40px 100px;
+}
+#bg, h1 {
+	position: absolute;
+}
+#about {
+	margin-top: 100vh;
+	height: 100vh;
+	background: white;
+}

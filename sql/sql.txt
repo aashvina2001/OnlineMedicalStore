@@ -1,0 +1,3 @@
+CREATE TABLE `pharmacy`.`items` ( `id` INT(100) NOT NULL PRIMARY KEY AUTO_INCREMENT , `name` VARCHAR(100) NOT NULL , `category` VARCHAR(100) NOT NULL , `price` INT(100) NOT NULL , `stock` INT(100) NOT NULL , `description` VARCHAR(200) NOT NULL ) ENGINE = MyISAM;
+
+create table cart(id integer(100) primary key auto_increment,name varchar(100), price varchar(100), quantity varchar(100), username varchar(100))

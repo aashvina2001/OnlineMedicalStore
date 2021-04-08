@@ -1,0 +1,48 @@
+body {
+	
+	background: black;
+}
+form {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+}
+.center {
+	margin-top: 120px;
+	margin-left: 500px;
+	background: white;
+	padding: 50px 25px;
+}
+#img1 {
+	height: 90vh;
+	width: 100%;
+	filter: opacity(40%);
+}
+.img, .center {
+	position: absolute;
+}
+#forgot {
+	float: right;
+	margin-top: 5px;
+}
+#aBtn1 {
+	color: #202020;
+}
+#aBtn2 {
+	color: #fff;
+}
+#aBtn2:hover {
+	color: #202020;
+}
+.form-control {
+	width: 240px;
+}
+input[name="email"] {
+	margin-bottom: 20px;
+}
+.two {
+	padding: 70px 70px;
+}
+.three {
+	visibility: hidden;
+}

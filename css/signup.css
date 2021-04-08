@@ -1,0 +1,35 @@
+body {
+	
+	background: black;
+}
+form {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+}
+.center {
+	margin-top: 40px;
+	background: white;
+	padding: 30px 56px;
+}
+#img1 {
+	height: 90vh;
+	width: 100%;
+	filter: opacity(40%);
+}
+.img, .center {
+	position: absolute;
+}
+#forgot {
+	float: right;
+	margin-top: 5px;
+}
+#aBtn1 {
+	color: #202020;
+}
+#aBtn2 {
+	color: #fff;
+}
+#aBtn2:hover {
+	color: #202020;
+}
